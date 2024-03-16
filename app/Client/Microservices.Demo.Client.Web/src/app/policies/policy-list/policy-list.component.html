@@ -1,0 +1,64 @@
+<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+
+</div>
+<div class="example-container mat-elevation-z8">
+  <mat-table #table [dataSource]="policies">
+
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="Number">
+      <mat-header-cell *matHeaderCellDef> Number </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.Number}} </mat-cell>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="DateFrom">
+      <mat-header-cell *matHeaderCellDef> Date From </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.DateFrom}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="DateTo">
+      <mat-header-cell *matHeaderCellDef> Date To </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.DateTo}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="PolicyHolder">
+      <mat-header-cell *matHeaderCellDef> Policy Holder </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.PolicyHolder}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="TotalPremium">
+      <mat-header-cell *matHeaderCellDef> Total Premium </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.TotalPremium}} </mat-cell>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="CodeProductName">
+      <mat-header-cell *matHeaderCellDef> Product Code </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.ProductCode}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="Product Name">
+      <mat-header-cell *matHeaderCellDef> Product Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.ProductName}} </mat-cell>
+    </ng-container>
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="ProductImage">
+      <mat-header-cell *matHeaderCellDef> Product Image </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.ProductImage}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductDescription">
+      <mat-header-cell *matHeaderCellDef> Product Description </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.ProductDescription}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="ProductMaxNumberOfInsured">
+      <mat-header-cell *matHeaderCellDef> Product Max Number Of Insured </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.ProductMaxNumberOfInsured}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="AgentLogin">
+      <mat-header-cell *matHeaderCellDef> Agent Login </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.AgentLogin}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+</div>

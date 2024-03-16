@@ -1,0 +1,25 @@
+[
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Safe Traveller',position: 1, FirstName: 'Hydrogen', LastName: 1.0079, City: 'H',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Safe Traveller',position: 2, FirstName: 'Helium', LastName: 4.0026, City: 'He',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Safe Traveller',position: 3, FirstName: 'Lithium', LastName: 6.941, City: 'Li',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 4, FirstName: 'Beryllium', LastName: 9.0122, City: 'Be',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 5, FirstName: 'Boron', LastName: 10.811, City: 'B',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 6, FirstName: 'Carbon', LastName: 12.0107, City: 'C',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 7, FirstName: 'Nitrogen', LastName: 14.0067, City: 'N',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 8, FirstName: 'Oxygen', LastName: 15.9994, City: 'O',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 9, FirstName: 'Fluorine', LastName: 18.9984, City: 'F',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+    {PolicyFron:'04/05/2024',PolicyTo:'09/09/2025',TotalPrice:'1000.00',Name:'Happy House',position: 10, FirstName: 'Neon', LastName: 20.1797, City: 'Ne',Country: 'H', ZipCode:'2002034', Street:'Street',TaxId:'001'
+    },
+]
+
+Policy
+PolicyHolderId
